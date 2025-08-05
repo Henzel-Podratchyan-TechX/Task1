@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" maxlength="15" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:&nbsp;&nbsp;&nbsp;</label>
+            <input id="age" type="number" name="age" min="1" max="120">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" cols="30" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="topic">Option:</label>
+            <select id="topic" name="topic">
+                <option value="option1">General</option>
+                <option value="option1">Support</option>
+                <option value="option1">Feedback</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email1">Email</label>
+            <input type="radio" id="email1" name="radio">
+            <label for="phone">Phone</label>
+            <input type="radio" id="phone" name="radio">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

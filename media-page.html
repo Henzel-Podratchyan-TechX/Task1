@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Page</title>
+</head>
+<body>
+    <main>
+        <div id="media-page-for-image">
+            <img src="assets/gecko.jpg" alt="gecko" id="gecko" height="200">
+            <img src="assets/tiger.jpg" alt="tiger" id="tiger" height="200">
+            <img src="assets/owl.jpg" alt="owl" id="owl" height="200">
+        </div>
+        <br>
+        <div id="media-page-for-picture">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="assets/wireframe.jpeg">
+                <source media="(min-width: 256px)" srcset="assets/wireframe.jpeg">
+                <img src="assets/wireframe.jpeg" alt="wireframe" id="wireframe">
+            </picture>
+        </div>
+        <br>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="assets/ppap.mp4" type="video/mp4">
+            </video>
+        </div>
+        <br>
+        <div>
+            <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/MQNRKX8GwPo?si=3aohjkF0a70TStPg"
+                    title="YouTube video player"
+                    allow="accelerometer;
+                        autoplay;
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+            ></iframe>
+        </div>
+        <br>
+        <div>
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5466.851104171621!2d44.512687573321536!3d40.183054553233326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abce217b8839d%3A0x80bc65ebce1f70f!2sArmenian%20National%20Opera%20and%20Ballet%20Theatre!5e0!3m2!1sen!2sam!4v1754389422842!5m2!1sen!2sam"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+    </main>
+</body>
+</html>
